@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btnModulo:
-                txtAnswer.setText(Double.toString(answer));
+                txtAnswer.setText(Double.toString(doModulo(op1, op2)));
                 break;
         }
     }
